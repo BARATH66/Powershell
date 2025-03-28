@@ -1,0 +1,10 @@
+SQL Authentication ------>
+
+.\deploy.ps1 -emptyIspacPath "C:\Users\Barath.p\Documents\testSSIS\initial_trinitySSISIntegration.ispac" -fullIspacPath "C:\Users\Barath.p\Documents\testSSIS\trinitySSIS\trinitySSISIntegration.ispac" -extractPath "C:\Users\Barath.p\Documents\testSSIS\extract" -serverName "localhost" -databaseName "SSISDB" -username "sa" -password "track@123" -prefixes "iot,iccc" -folderName "FolderSSIS" -projectName "trinitySSISIntegration"
+
+Windows Authentication --------->
+
+.\deploy.ps1 -emptyIspacPath "C:\Users\Barath.p\Documents\testSSIS\initial_trinitySSISIntegration.ispac" -fullIspacPath "C:\Users\Barath.p\Documents\testSSIS\trinitySSIS\trinitySSISIntegration.ispac" -extractPath "C:\Users\Barath.p\Documents\testSSIS\extract" -serverName "localhost" -databaseName "SSISDB" -prefixes "iot,iccc" -folderName "FolderSSIS" -projectName "trinitySSISIntegration"
+
+
+
